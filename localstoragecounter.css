@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #1e293b;
+    text-align: center;
+    padding: 20px;
+    }
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: #0f172a;
+    }
+
+hr {
+    width: 70%;
+    border: 1px solid #94a3b8;
+    margin: 15px 0;
+    }
+
+p {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    color: #334155;
+    }
+
+h2 {
+    font-size: 1.8rem;
+    color: #2563eb;
+    margin-top: 10px;
+    }
+
+h3 {
+    font-size: 1.4rem;
+    margin: 10px 0;
+    }
+
+#count {
+    font-size: 4rem !important;
+    font-weight: 700;
+    color: #dc2626;
+    border: solid #000000;
+    margin: 20px 0;
+    background: white;
+    padding: 15px 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+
+#count:hover {
+    transform: translateY(-3px);
+    background: #f0e76d;
+    }
+
+.btn-group {
+    display: flex;
+    gap: 12px;  
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    }
+
+button {
+    padding: 12px 22px;
+    margin: 8px;
+    border: solid #000000;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #2563eb;
+    color: white;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+    }
+
+button:hover {
+    border: solid #000000;
+    transform: translateY(-3px);
+    background: #1d4ed8;
+    }
+
+button:active { transform: scale(0.96); }
+
+button:nth-of-type(1) { background: #16a34a; }
+
+button:nth-of-type(2) { background: #dc2626; }
+
+button:nth-of-type(3) { background: #f59e0b; }
+
+button:nth-of-type(4) { background: #7c3aed; }
+
+button:nth-of-type(5) { background: #0891b2; }
+
+button:nth-of-type(1):hover { background: #15803d; }
+
+button:nth-of-type(2):hover { background: #b91c1c; }
+
+button:nth-of-type(3):hover { background: #d97706; }
+
+button:nth-of-type(4):hover { background: #6d28d9; }
+
+button:nth-of-type(5):hover { background: #0e7490; }
+
+@media (max-width: 768px) {
+    h1 { font-size: 1.7rem; }
+    #count {
+        font-size: 3rem !important;
+        padding: 12px 30px;
+        }
+    button {
+        width: 120px;
+        padding: 10px;
+        font-size: 0.9rem;
+        } 
+    }
